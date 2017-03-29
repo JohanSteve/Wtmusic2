@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.wtmusic.MainActivity">
+
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="259dp"
+        android:layout_height="59dp"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/button1"
+        android:layout_marginTop="16dp"
+        android:background="#531934"
+        android:text="Login Page"
+        android:textColor="@color/viewBg" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="259dp"
+        android:layout_height="59dp"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_alignStart="@+id/button1"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="16dp"
+        android:background="#531934"
+        android:text="music List"
+        android:textColor="@color/viewBg" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="259dp"
+        android:layout_height="59dp"
+        android:layout_alignLeft="@+id/button5"
+        android:layout_alignStart="@+id/button5"
+        android:layout_below="@+id/button5"
+        android:layout_marginTop="16dp"
+        android:background="#531934"
+        android:text="reproducer"
+        android:textColor="@color/viewBg" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="259dp"
+        android:layout_height="59dp"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignStart="@+id/button3"
+        android:layout_below="@+id/button3"
+        android:layout_marginTop="15dp"
+        android:background="#531934"
+        android:text="payment method"
+        android:textColor="@color/viewBg" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="259dp"
+        android:layout_height="59dp"
+        android:layout_below="@+id/button4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:background="#531934"
+        android:text="music store"
+        android:textColor="@color/viewBg" />
+</RelativeLayout>

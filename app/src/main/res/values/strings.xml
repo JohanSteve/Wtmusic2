@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Wtmusic</string>
+    <string name="action_add_favourite">add favorite</string>
+    <string name="action_play_next">play next</string>
+    <string name="action_settings">settings</string>
+    <string name="action_shop">Music Shop</string>
+    <string name="producer">reproducer</string>
+    <string name="songList">Your Music</string>
+    <string name="explicationP">here goes the reproductor music with circular image view for albuns and music buttons to play the music  </string>
+    <string name="explicationP2">there are some examples below</string>
+    <string name="explicationP3">below going to be the Buttons for play ,stop,and past the music,i going to  use the library media.MediaPlayer</string>
+    <string name="explicationM1">here goes the music store where you can download  new realises or the classics this will looks like music list with albums</string>
+    <string name="explicationL1">here goes the login  scream  session for the music app </string>
+    <string name="explicationS1">here goes the payment methods as the website payment </string>
+    <string name="explicationS2">they payment will make with a intent to the website like Paypal,and also for cars an example provided by google IInAppBillingService.aidl</string>
+
+    <string-array name="songs">
+        <item>Coldplay</item>
+        <item>Twenty one pilots</item>
+        <item>Owl city</item>
+        <item>Hans Zimmer</item>
+    </string-array>
+
+
+    <string-array name="Description">
+        <item>coldplay description</item>
+        <item>21 description</item>
+        <item>Owl  description</item>
+        <item>Hans description</item>
+
+    </string-array>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+</resources>
